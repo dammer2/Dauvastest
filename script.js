@@ -1,0 +1,10 @@
+			var a=100;
+			setFillColor("#FF9999");				
+			fillCircle(xmax/4, ymax/2, xmax*0.65);					
+			setFillColor("#FF0000");				
+			fillRectCenter(xmax/2,ymax/2,a,a);
+			setFillColor("white");
+			fillRectCenter(xmax/2,ymax/2,a*0.8,a*0.2);
+			fillRectCenter(xmax/2,ymax/2,a*0.2,a*0.8);
+			setFillColor("red");
+			drawText(100,100,"Hopp Schwiiz",80);
